@@ -1,0 +1,27 @@
+$width-min:500px;
+
+$LimeGreen: hsl(163, 72%, 41%);
+$BrightRed: hsl(356, 69%, 56%);
+$Facebook: hsl(208, 92%, 53%);
+$Twitter: hsl(203, 89%, 53%);
+$Instagram: linear-gradient(to right, hsl(37, 97%, 70%) , hsl(329, 70%, 58%));
+$Youtube: hsl(348, 97%, 39%);
+
+// Dark Theme
+$toggle-drk: linear-gradient(to right,hsl(210, 78%, 56%),hsl(146, 68%, 55%));
+
+//Light Theme
+$toggle-light: hsl(230, 22%, 74%);
+
+//  Dark Theme
+$drk-very-dark-blue-bg: hsl(230, 17%, 14%);
+$drk-very-dark-blue-top-bg-pattern: hsl(232, 19%, 15%);
+$drk-dark-desaturated-blue-card-bg: hsl(228, 28%, 20%);
+$drk-desaturated-blue-text: hsl(228, 34%, 66%);
+$drk-white-text: hsl(0, 0%, 100%);
+//  Light Theme
+$lgt-white-bg: hsl(0, 0%, 100%);
+$lgt-very-pale-blue-top-bg-pattern: hsl(225, 100%, 98%);
+$lgt-light-grayish-blue-card-bg: hsl(227, 47%, 96%);
+$lgt-dark-grayish-blue-text: hsl(228, 12%, 44%);
+$lgt-very-dark-blue-text: hsl(230, 17%, 14%);

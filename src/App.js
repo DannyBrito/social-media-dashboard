@@ -1,8 +1,8 @@
 import React from 'react';
-import './App.css';
 import SocialMediaCardContainer from './containers/SocialMediaCardContainer'
 import StatCardsContainer from './containers/StatCardsContainer';
 import HeaderMediaDashboard from './components/HeaderMediaDashboard';
+import './App.scss';
 function App() {
   return (
     <div className="App">

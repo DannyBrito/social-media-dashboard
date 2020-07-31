@@ -16,7 +16,10 @@ const HeaderMediaDashboard = () =>{
                     Dark Mode
                 </div>
                 <div className="darkModeSwitchBox">
-                    <button>BOILERPLATE</button>
+                    <label className="switch">
+                        <input type="checkbox" />
+                        <span className="slider round"></span>
+                    </label>
                 </div>
             </div>
         </div>

@@ -18,7 +18,7 @@ export const USER_SOCIAL_PAGES = [
         presentResult:'99 Today',  
     },
     {
-        logoSocialMediaSrc:'icon-twitter.svg',
+        logoSocialMediaSrc:'icon-instagram.svg',
         usermane:'@realnathanf',
         totalStat:'11k',
         typeStat:'FOLLOWERS',
@@ -26,7 +26,7 @@ export const USER_SOCIAL_PAGES = [
         presentResult:'1099 Today',  
     },
     {
-        logoSocialMediaSrc:'icon-twitter.svg',
+        logoSocialMediaSrc:'icon-youtube.svg',
         usermane:'Nathan F.',
         totalStat:'8239',
         typeStat:'SUBSCRIBERS',

@@ -1,0 +1,16 @@
+.headerMediaDashboard{
+    display: flex;
+    flex-direction: column;
+}
+
+.headerBox{
+    padding-bottom: 15px;
+    border-bottom: black solid 1px;
+}
+
+.darkModeBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
