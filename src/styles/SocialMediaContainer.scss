@@ -6,12 +6,16 @@
 }
 
 .socialMediaCard{
-    width: 80%;
+    width: 100%;
+    overflow: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     padding: 10px;
+    font-weight:700;
+    border-radius: $card-border-radius;
+    margin: 10px;
 }
 
 .socialMediaCard > div {
@@ -25,8 +29,12 @@
 
 .amountBox{
     flex-direction: column;
+    .typeStat{
+        letter-spacing: 0.2em;
+        font-weight: 400;
+    }
     .numberStat{
-        font-size: 200px;
+        font-size: 50px;
     }
 }
 .referenceStat{
@@ -36,8 +44,24 @@
     height: 50%;
 }
 
+.twitterBorder{
+    border-top: $Facebook solid 4px;
+}
+.facebookBorder{
+    border-top: $Twitter solid 4px;
+}
+.instagramBorder{
+    border-image: $Instagram 1;
+    border-top: 4px solid;
+    border-radius:$card-border-radius;
+}
+.youtubeBorder{
+    border-top: $Youtube solid 4px;
+}
+
 @media only screen and (min-width:$width-min){
-    .SocialMediaContainer{
-        flex-wrap: nowrap;
-    }
+    .socialMediaCard{
+        width: 22.5%;
+        margin: 1%;
+    } 
 }

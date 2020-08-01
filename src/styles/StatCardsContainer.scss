@@ -7,22 +7,31 @@
 }
 
 .statMediaCard{
-    width: 80%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     padding: 10px 30px;
+    border-radius: $card-border-radius;
+    margin: 10px;
 }
 
 .statMediaCard > div {
     padding: 4px 0;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between; 
+    font-weight: 700;
 }
-
+.countStats{
+    flex-wrap: wrap;
+}
+.totalAmountStat{
+    font-size: 35px;
+}
 .percentageStatReference{
     height: 20px;
+    align-self: flex-end;
     display: flex;
     align-items: center;
 }
@@ -32,6 +41,8 @@
 }
 @media only screen and (min-width:$width-min){
     .statMediaCard{
-        width: 25%;
+        width: 22.5%;
+        margin:  1%;
+        padding: 10px;
     }
 }

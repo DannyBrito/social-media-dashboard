@@ -1,0 +1,56 @@
+.light{
+    background-color:$lgt-white-bg;
+    color:$lgt-dark-grayish-blue-text;
+    .headerMediaDashboard{
+        .headerBox{
+            .titleHeader{
+                color: $lgt-very-dark-blue-text;
+            }
+            border-bottom: $lgt-dark-grayish-blue-text solid 1px;
+        }
+    }
+    .card{
+        background-color: $lgt-light-grayish-blue-card-bg;
+    }
+    .numberStat{
+        color:$lgt-very-dark-blue-text;
+    }
+
+    @media only screen and (min-width:$width-min){
+        .headerMediaDashboard{
+            .headerBox{
+                border:none;
+            }
+        }
+    }
+}
+
+.dark{
+    background-color:$drk-very-dark-blue-bg;
+    color:$drk-desaturated-blue-text;
+    .headerMediaDashboard{
+        .headerBox{
+            .titleHeader{
+                color: $drk-white-text;
+            }
+            border-bottom: $lgt-dark-grayish-blue-text solid 1px;
+        }
+    }
+    .overviewDivision{
+        color: $drk-white-text;
+    }
+    .card{
+        background-color: $drk-dark-desaturated-blue-card-bg;
+    }
+    .numberStat{
+        color:$drk-white-text;
+    }
+
+    @media only screen and (min-width:$width-min){
+        .headerMediaDashboard{
+            .headerBox{
+                border:none;
+            }
+        }
+    }
+}

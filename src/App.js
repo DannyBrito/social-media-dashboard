@@ -1,12 +1,13 @@
-import React from 'react';
+import React,{useState} from 'react';
 import SocialMediaCardContainer from './containers/SocialMediaCardContainer'
 import StatCardsContainer from './containers/StatCardsContainer';
 import HeaderMediaDashboard from './components/HeaderMediaDashboard';
 import './App.scss';
 function App() {
+  const [lightTheme,setlightTheme] = useState(true)
   return (
-    <div className="App">
-      <HeaderMediaDashboard />
+    <div className={`App ${lightTheme ? 'light' : 'dark'}`}>
+      <HeaderMediaDashboard setlightTheme={setlightTheme} lightTheme={lightTheme} />
       <SocialMediaCardContainer />
       <div className="overviewDivision">
         Overview - Today
@@ -15,12 +16,5 @@ function App() {
     </div>
   );
 }
-
-      
-// Social Media Dashboard
-// Total Followers: 23,004
-// Dark Mode
-
-// Overview - Today
 
 export default App;

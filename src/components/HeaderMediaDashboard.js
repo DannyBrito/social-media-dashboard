@@ -1,6 +1,6 @@
 import React from 'react'
 
-const HeaderMediaDashboard = () =>{
+const HeaderMediaDashboard = ({setlightTheme,lightTheme}) =>{
     return (
         <div className="headerMediaDashboard">
             <div className="headerBox">
@@ -8,7 +8,7 @@ const HeaderMediaDashboard = () =>{
                     Social Media Dashboard
                 </div>
                 <div className="totalStats">
-                    Total Followers:23,004
+                    Total Followers: 23,004
                 </div>
             </div>
             <div className="darkModeBox">
@@ -17,7 +17,7 @@ const HeaderMediaDashboard = () =>{
                 </div>
                 <div className="darkModeSwitchBox">
                     <label className="switch">
-                        <input type="checkbox" />
+                        <input type="checkbox" onChange={()=>setlightTheme(prev => !prev)} checked={lightTheme}/>
                         <span className="slider round"></span>
                     </label>
                 </div>

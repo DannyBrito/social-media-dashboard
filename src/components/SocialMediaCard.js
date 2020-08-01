@@ -1,10 +1,10 @@
 import React from 'react'
 
-const SocialMediaCard = ({logoSocialMediaSrc,usermane,totalStat,typeStat,statReference,presentResult}) =>{
+const SocialMediaCard = ({logoSocialMedia,usermane,totalStat,typeStat,statReference,presentResult}) =>{
     return (
-        <div className="socialMediaCard">
+        <div className={`card socialMediaCard ${logoSocialMedia}Border`}>
             <div className="socialMediaHeaderInfo">
-                <img alt="social media logo" className="logSocialMedia"src={logoSocialMediaSrc} />
+                <img alt="social media logo" className="logSocialMedia"src={`icon-${logoSocialMedia}.svg`} />
                 <span className="username">{usermane}</span>
             </div>
             <div className="amountBox">
@@ -16,8 +16,8 @@ const SocialMediaCard = ({logoSocialMediaSrc,usermane,totalStat,typeStat,statRef
                 </div>  
             </div>
             <div className="referenceStat">
-                <img alt="" className="statReference"src={statReference} />
-                <span className="presentResult">{presentResult}</span>
+                <img alt="" className="statReference"src={`icon-${statReference}.svg`} />
+                <span className={`presentResult ${statReference === 'up' ? 'greenOutcome' : 'redOutcome'}`}>{presentResult}</span>
             </div>
         </div>
     )

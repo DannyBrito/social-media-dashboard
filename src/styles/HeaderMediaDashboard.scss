@@ -1,16 +1,37 @@
 .headerMediaDashboard{
     display: flex;
     flex-direction: column;
+    margin: 0 2%;
+    font-weight: 700;
 }
 
 .headerBox{
     padding-bottom: 15px;
-    border-bottom: black solid 1px;
+}
+.titleHeader{
+    font-size: 25px;
 }
 
 .darkModeBox{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 0;
+    padding: 15px 0px;
+}
+
+@media only screen and (min-width:$width-min){
+    .headerMediaDashboard{
+        padding: 15px 0;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .headerBox{
+        border: none;
+    }
+    .darkModeBox{
+        justify-content: flex-end;
+    }
+    .darkModeTitle{
+        margin-right: 10px;
+    }
 }
