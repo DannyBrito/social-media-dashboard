@@ -3,7 +3,7 @@ import SocialMediaCardContainer from './containers/SocialMediaCardContainer'
 import StatCardsContainer from './containers/StatCardsContainer';
 import HeaderMediaDashboard from './components/HeaderMediaDashboard';
 import './App.scss';
-function App() {
+const App = () => {
   const [lightTheme,setlightTheme] = useState(true)
   return (
     <div className={`App ${lightTheme ? 'light' : 'dark'}`}>
@@ -16,7 +16,7 @@ function App() {
       <div className="attribution">
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge"  rel="noopener noreferrer" target="_blank">Frontend Mentor</a>. 
         Coded by <a href="https://github.com/DannyBrito">Danny Brito</a>.
-    </div>
+      </div>
     </div>
   );
 }
