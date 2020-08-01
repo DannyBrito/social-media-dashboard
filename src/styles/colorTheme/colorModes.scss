@@ -12,10 +12,15 @@
     .card{
         background-color: $lgt-light-grayish-blue-card-bg;
     }
+    .card:hover{
+        background-color:$light-card-hover;
+        cursor: pointer;
+    }
+    
     .numberStat,.totalAmountStat{
         color:$lgt-very-dark-blue-text;
     }
-
+    
     @media only screen and (min-width:$width-min){
         .headerMediaDashboard{
             .headerBox{
@@ -41,6 +46,10 @@
     }
     .card{
         background-color: $drk-dark-desaturated-blue-card-bg;
+    }
+    .card:hover{
+        background-color:$drk-card-hover;
+        cursor: pointer;
     }
     .numberStat,.totalAmountStat{
         color:$drk-white-text;

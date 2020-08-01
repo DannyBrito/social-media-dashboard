@@ -13,6 +13,10 @@ function App() {
         Overview - Today
       </div>
       <StatCardsContainer />
+      <div className="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge"  rel="noopener noreferrer" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="https://github.com/DannyBrito">Danny Brito</a>.
+    </div>
     </div>
   );
 }

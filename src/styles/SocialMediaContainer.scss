@@ -61,6 +61,12 @@
 
 @media only screen and (min-width:$width-min){
     .socialMediaCard{
+        width: 48%;
+        margin: 1%;
+    } 
+}
+@media only screen and (min-width:$width-table){
+    .socialMediaCard{
         width: 22.5%;
         margin: 1%;
     } 

@@ -1,4 +1,5 @@
-$width-min:600px;
+$width-min:400px;
+$width-table: 800px;
 $card-border-radius:5px;
 
 $LimeGreen: hsl(163, 72%, 41%);
@@ -26,3 +27,6 @@ $lgt-very-pale-blue-top-bg-pattern: hsl(225, 100%, 98%);
 $lgt-light-grayish-blue-card-bg: hsl(227, 47%, 96%);
 $lgt-dark-grayish-blue-text: hsl(228, 12%, 44%);
 $lgt-very-dark-blue-text: hsl(230, 17%, 14%);
+
+$drk-card-hover:hsl(228, 26%, 27%);
+$light-card-hover:rgb(225, 227, 240);
